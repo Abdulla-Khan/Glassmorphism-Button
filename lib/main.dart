@@ -53,7 +53,7 @@ class _HomePageState extends State<HomePage> {
                   child: Text(
                     _isblur ? 'Un Blur' : 'Tap to Blur',
                     textAlign: TextAlign.center,
-                    style: TextStyle(
+                    style: const TextStyle(
                         color: Colors.black,
                         fontSize: 32,
                         fontWeight: FontWeight.bold),
